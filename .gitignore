@@ -1,3 +1,4 @@
 *.elc
-.cask/
-savefiles/
+/.cask
+/savefiles
+!/savefiles/.gitkeep
