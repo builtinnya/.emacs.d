@@ -54,6 +54,9 @@
 ;; Set up highlighting
 (require 'highlighting-setup)
 
+;; Set up parenthesis
+(require 'parens-setup)
+
 ;; Set up on-the-fly spell checking
 (require 'flyspell-setup)
 
@@ -70,8 +73,17 @@
 ;; Ido makes it a lot easier to switch between buffers and to open files.
 (require 'ido-setup)
 
+;; Set up Imenu mode - menus for accessing locations in documents
+(require 'imenu-setup)
+
 ;; Set up incremental completion and selection narrowing framework
 (require 'helm-setup)
+
+;; Set up Projectile - project manager
+(require 'projectile-setup)
+
+;; Set up Popwin - popup window manager
+(require 'popwin-setup)
 
 ;; Set up TRAMP - remote file editing package.
 ;; TRAMP can be used for sudo access.
@@ -82,6 +94,15 @@
 
 ;; Set up multiple-cursors
 (require 'multiple-cursors-setup)
+
+;; Set up Java development environment
+(require 'java-setup)
+
+;; Set up JavaScript development environment
+(require 'js-setup)
+
+;; Set up web development environment
+(require 'web-setup)
 
 ;; Set up key-bindings
 (require 'key-bindings-setup)

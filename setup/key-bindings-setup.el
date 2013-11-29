@@ -11,13 +11,16 @@
 ;; Helm lightweight version
 (global-set-key (kbd "C-c h") 'helm-mini)
 
-;; Helm find-file
-(global-set-key (kbd "C-x C-f") 'helm-find-files)
-
 ;; Multiple cursors: add the next matching part
 (global-set-key (kbd "s-d") 'mc/mark-next-like-this)
 
 ;; Multiple cursors: add all matching parts
 (global-set-key (kbd "s-D") 'mc/mark-all-like-this)
+
+;; Press Command-p for fuzzy find in project
+(global-set-key (kbd "s-p") 'projectile-find-file)
+
+;; Press Command-b for fuzzy switch buffer
+(global-set-key (kbd "s-b") 'projectile-switch-to-buffer)
 
 (provide 'key-bindings-setup)

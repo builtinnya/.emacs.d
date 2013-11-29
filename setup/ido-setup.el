@@ -5,6 +5,9 @@
 ;; Enable fuzzy search
 (setq ido-enable-flex-matching t)
 
+;; Always create a new buffer if no buffer matches
+(setq ido-create-new-buffer 'always)
+
 ;; Use Ido for all buffer/file reading
 (setq ido-everywhere t)
 
