@@ -13,7 +13,7 @@
 (setq ac-ignore-case nil)
 
 ;; Completion will be started automatically if you enter one character.
-(setq ac-auto-start 0)
+(setq ac-auto-start 1)
 
 ;; Auto-completion starts by typing TAB
 (setq ac-trigger-key "TAB")

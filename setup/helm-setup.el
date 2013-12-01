@@ -8,6 +8,18 @@
 (setq helm-github-stars-cache-file
       (expand-file-name "hgs-cache" savefiles-dir))
 
+(defun my-helm-multi-occur-all-buffers ()
+  "Multi-occur in all buffers backed by files."
+  (interactive)
+  (let ((thing (thing-at-point 'symbol t))
+        (buffers (delq nil
+                       (mapcar (lambda (b)
+                                 (when (buffer-file-name b) (buffer-name b)))
+                               (buffer-list)))))
+    (if thing
+        (helm-multi-occur-1 buffers thing)
+      (helm-multi-occur buffers))))
+
 ;; Use Helm globally
 (helm-mode +1)
 

@@ -35,6 +35,9 @@
 ;; Add to load-path: internal libraries
 (add-to-list 'load-path library-dir)
 
+;; Load core library
+(require 'my-core)
+
 ;; Add to load-path: setup files
 (add-to-list 'load-path setup-dir)
 
@@ -63,6 +66,9 @@
 ;; Set up on-the-fly syntax checking
 (require 'flycheck-setup)
 
+;; Set up Semantic mode
+(require 'semantic-setup)
+
 ;; Set up auto-completion
 (require 'auto-complete-setup)
 
@@ -75,6 +81,9 @@
 
 ;; Set up Imenu mode - menus for accessing locations in documents
 (require 'imenu-setup)
+
+;; Set up Ag, the silver searcher
+(require 'ag-setup)
 
 ;; Set up incremental completion and selection narrowing framework
 (require 'helm-setup)
@@ -103,6 +112,12 @@
 
 ;; Set up web development environment
 (require 'web-setup)
+
+;; Set up expand-region, semantic region expander
+(require 'expand-region-setup)
+
+;; Set up ace-jump-mode - jump to a word starting with a given char
+(require 'ace-jump-setup)
 
 ;; Set up key-bindings
 (require 'key-bindings-setup)

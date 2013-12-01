@@ -1,7 +1,4 @@
 ;;; Set up Java development environment
-;;
-;; Use Eclipse with Emacs+ plugin on serious Java projects
-;;
 
 ;; Use Google's style
 (require 'google-c-style)
