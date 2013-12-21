@@ -1,4 +1,9 @@
-;;; Set up Flycheck - on-the-fly syntax checking mode
+;;; Set up Flycheck, a modern on-the-fly syntax checking mode
+
+;; Use Grizzl as the completion system
+(add-vendor-to-load-path "grizzl")
+(require 'grizzl)
+(setq flycheck-completion-system 'grizzl)
 
 ;; Enable Flycheck in all buffers in which it can be used
 (add-hook 'after-init-hook #'global-flycheck-mode)
