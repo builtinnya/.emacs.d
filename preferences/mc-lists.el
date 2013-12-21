@@ -4,6 +4,8 @@
 (setq mc/cmds-to-run-for-all
       '(
         c-electric-delete-forward
+        sp--self-insert-command
+        yas-expand
         ))
 
 (setq mc/cmds-to-run-once
