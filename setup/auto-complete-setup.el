@@ -12,8 +12,8 @@
 ;; Ignore case
 (setq ac-ignore-case nil)
 
-;; Completion will be started automatically if you enter one character.
-(setq ac-auto-start 1)
+;; Completion will never be started automatically
+(setq ac-auto-start nil)
 
 ;; Auto-completion starts by typing TAB
 (setq ac-trigger-key "TAB")
@@ -22,7 +22,7 @@
 (setq ac-use-menu-map t)
 
 ;; Popup appears faster (default: 0.8)
-(setq ac-auto-show-menu 0.0)
+(setq ac-auto-show-menu 0.3)
 
 ;; Set sources for completion
 (setq-default ac-sources
