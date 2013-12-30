@@ -47,4 +47,7 @@
 ;; Jump back to the original position
 (global-set-key (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
 
+;; Run Magit
+(global-set-key (kbd "C-c m") 'magit-status)
+
 (provide 'key-bindings-setup)
