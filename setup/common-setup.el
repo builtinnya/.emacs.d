@@ -6,6 +6,9 @@
 ;; Display continuous lines
 (setq-default truncate-lines nil)
 
+;; Highlight current line
+(global-hl-line-mode +1)
+
 ;; Truncate even when screen is split into multiple windows
 (setq-default truncate-partial-width-windows nil)
 
