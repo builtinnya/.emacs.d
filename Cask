@@ -41,6 +41,7 @@
 (depends-on "highlight")
 (depends-on "highlight-indentation")
 (depends-on "idle-highlight")
+(depends-on "ido-ubiquitous")
 (depends-on "imenu-anywhere")
 (depends-on "inf-ruby")
 (depends-on "ipython")
