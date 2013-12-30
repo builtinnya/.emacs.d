@@ -11,10 +11,6 @@
 ;; Load projectile
 (require 'projectile)
 
-;; Diminish keeps the modeline tidy
-(require 'diminish)
-(diminish 'projectile-mode "Prjl")
-
 ;; Grizzl - A fuzzy-search utility for Emacs
 (add-vendor-to-load-path "grizzl")
 (require 'grizzl)
