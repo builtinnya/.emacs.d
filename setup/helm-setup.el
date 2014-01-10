@@ -14,9 +14,6 @@
         (helm-multi-occur-1 buffers thing)
       (helm-multi-occur buffers))))
 
-;; Use Helm globally
-(helm-mode +1)
-
 ;; Fetch my GitHub starred repositories and select one for browsing
 (require 'helm-github-stars)
 (setq helm-github-stars-username "builtinnya")

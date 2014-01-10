@@ -70,6 +70,7 @@
 (depends-on "simple-httpd")
 (depends-on "skewer-mode")
 (depends-on "smartparens")
+(depends-on "smex")
 (depends-on "soft-morning-theme")
 (depends-on "sr-speedbar")
 (depends-on "tabbar")
