@@ -43,6 +43,10 @@
                     :foreground "white"
                     :background "grey40")
 
+(set-face-attribute 'powerline-active3 nil
+                    :foreground "white"
+                    :background "grey10")
+
 ;;;###autoload
 (defun powerline-my-theme ()
   "Set up my mode-line."
@@ -53,6 +57,7 @@
                    (let* ((mode-line 'mode-line)
                           (face1 'powerline-active1)
                           (face2 'powerline-active2)
+                          (face3 'powerline-active3)
                           (separator-left
                            (intern
                             (format "powerline-%s-%s"
@@ -66,13 +71,18 @@
                           (lhs
                            (list (powerline-raw "%*" nil 'l)
                                  (powerline-buffer-size nil 'l)
-                                 (powerline-raw mode-line-mule-info nil 'l)
+                                 ;; (powerline-raw mode-line-mule-info nil 'l)
+                                 (powerline-raw " ")
                                  (powerline-buffer-id nil 'l)
                                  (when (and (boundp 'which-func-mode)
                                             which-func-mode)
                                    (powerline-raw which-func-format nil 'l))
                                  (powerline-raw " ")
-                                 (funcall separator-left nil face1)
+                                 (funcall separator-left nil face3)
+                                 (powerline-raw "%4l" face3 'l)
+                                 (powerline-raw ":" face3 'l)
+                                 (powerline-raw "%3c" face3 'r)
+                                 (funcall separator-left face3 face1)
                                  (when (boundp 'erc-modified-channels-object)
                                    (powerline-raw erc-modified-channels-object
                                                   face1 'l))
@@ -85,11 +95,7 @@
                                  (powerline-vc face2 'r)))
                           (rhs
                            (list (powerline-raw global-mode-string face2 'r)
-                                 (funcall separator-right face2 face1)
-                                 (powerline-raw "%4l" face1 'l)
-                                 (powerline-raw ":" face1 'l)
-                                 (powerline-raw "%3c" face1 'r)
-                                 (funcall separator-right face1 nil)
+                                 (funcall separator-right face2 nil)
                                  (powerline-raw " ")
                                  (powerline-raw "%6p" nil 'r)
                                  (powerline-hud face2 face1))))
