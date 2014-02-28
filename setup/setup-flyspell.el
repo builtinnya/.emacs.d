@@ -19,4 +19,4 @@
 ;; Enable flyspell for comments and strings in programming modes
 (add-hook 'prog-mode-hook 'flyspell-prog-mode)
 
-(provide 'flyspell-setup)
+(provide 'setup-flyspell)

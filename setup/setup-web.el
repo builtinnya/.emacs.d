@@ -17,4 +17,7 @@
             ;; Cursor will be positioned between first empty quotes
             (setq emmet-move-cursor-between-quotes t)))
 
-(provide 'web-setup)
+;; Display color strings as colors
+(add-hook 'css-mode-hook 'rainbow-mode)
+
+(provide 'setup-web)

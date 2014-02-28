@@ -20,4 +20,4 @@
 (setq helm-github-stars-cache-file
       (expand-file-name "hgs-cache" savefiles-dir))
 
-(provide 'helm-setup)
+(provide 'setup-helm)

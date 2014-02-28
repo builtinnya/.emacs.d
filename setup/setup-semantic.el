@@ -10,4 +10,4 @@
 ;; Any source code parsed by Semantic is cached in a database
 (global-semanticdb-minor-mode)
 
-(provide 'semantic-setup)
+(provide 'setup-semantic)

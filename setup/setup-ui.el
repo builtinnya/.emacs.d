@@ -120,4 +120,4 @@
 (eval-after-load "highlight-indentation"
   '(diminish 'highlight-indentation-current-column-mode))
 
-(provide 'ui-setup)
+(provide 'setup-ui)

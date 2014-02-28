@@ -39,4 +39,4 @@
 ;; Avoid the problem that Flyspell disables auto-completion
 (ac-flyspell-workaround)
 
-(provide 'auto-complete-setup)
+(provide 'setup-auto-complete)

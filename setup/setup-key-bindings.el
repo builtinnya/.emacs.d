@@ -50,4 +50,4 @@
 ;; Run Magit
 (global-set-key (kbd "C-c m") 'magit-status)
 
-(provide 'key-bindings-setup)
+(provide 'setup-key-bindings)

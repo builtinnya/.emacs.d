@@ -8,4 +8,4 @@
 ;; Reuse the existing search results buffer
 (setq ag-reuse-buffers t)
 
-(provide 'ag-setup)
+(provide 'setup-ag)

@@ -21,4 +21,4 @@
 ;; Turn on smartparens globally
 (smartparens-global-mode t)
 
-(provide 'parens-setup)
+(provide 'setup-parens)

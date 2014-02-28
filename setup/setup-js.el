@@ -13,4 +13,4 @@
 ;; Use ac-js2 for auto-completion
 (add-hook 'js2-mode-hook 'ac-js2-mode)
 
-(provide 'js-setup)
+(provide 'setup-js)

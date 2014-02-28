@@ -9,4 +9,4 @@
 ;; File which keeps connection history
 (setq tramp-persistency-file-name (expand-file-name "tramp" savefiles-dir))
 
-(provide 'tramp-setup)
+(provide 'setup-tramp)

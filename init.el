@@ -42,82 +42,85 @@
 (add-to-list 'load-path setup-dir)
 
 ;; Load common setup
-(require 'common-setup)
+(require 'setup-common)
 
 ;; Load OSX specific setup
 (when (eq system-type 'darwin)
-  (require 'osx-setup))
+  (require 'setup-osx))
 
 ;; Set up user interface
-(require 'ui-setup)
+(require 'setup-ui)
 
 ;; Set up extra whitespace visualization/elimination
-(require 'whitespace-setup)
+(require 'setup-whitespace)
 
 ;; Set up highlighting
-(require 'highlighting-setup)
+;; (require 'setup-highlighting)
 
 ;; Set up parenthesis
-(require 'parens-setup)
+(require 'setup-parens)
 
 ;; Set up on-the-fly spell checking
-(require 'flyspell-setup)
+(require 'setup-flyspell)
 
 ;; Set up on-the-fly syntax checking
-(require 'flycheck-setup)
+(require 'setup-flycheck)
 
 ;; Set up Semantic mode
-(require 'semantic-setup)
+(require 'setup-semantic)
 
 ;; Set up auto-completion
-(require 'auto-complete-setup)
+(require 'setup-auto-complete)
 
 ;; Set up template system
-(require 'yasnippet-setup)
+(require 'setup-yasnippet)
 
 ;; Set up Ido (Interactively DO things) mode.
 ;; Ido makes it a lot easier to switch between buffers and to open files.
-(require 'ido-setup)
+(require 'setup-ido)
 
 ;; Set up Imenu mode - menus for accessing locations in documents
-(require 'imenu-setup)
+(require 'setup-imenu)
 
 ;; Set up Ag, the silver searcher
-(require 'ag-setup)
+(require 'setup-ag)
 
 ;; Set up incremental completion and selection narrowing framework
-(require 'helm-setup)
+(require 'setup-helm)
 
 ;; Set up Projectile - project manager
-(require 'projectile-setup)
+(require 'setup-projectile)
 
 ;; Set up Popwin - popup window manager
-(require 'popwin-setup)
+(require 'setup-popwin)
 
 ;; Set up TRAMP - remote file editing package.
 ;; TRAMP can be used for sudo access.
-(require 'tramp-setup)
+(require 'setup-tramp)
 
 ;; Set up markdown-mode
-(require 'markdown-setup)
+(require 'setup-markdown)
 
 ;; Set up multiple-cursors
-(require 'multiple-cursors-setup)
+(require 'setup-multiple-cursors)
 
 ;; Set up Java development environment
-(require 'java-setup)
+(require 'setup-java)
 
 ;; Set up JavaScript development environment
-(require 'js-setup)
+(require 'setup-js)
 
 ;; Set up web development environment
-(require 'web-setup)
+(require 'setup-web)
+
+;; Set up Lisp development environment
+(require 'setup-lisp)
 
 ;; Set up expand-region, semantic region expander
-(require 'expand-region-setup)
+(require 'setup-expand-region)
 
 ;; Set up ace-jump-mode - jump to a word starting with a given char
-(require 'ace-jump-setup)
+(require 'setup-ace-jump)
 
 ;; Set up key-bindings
-(require 'key-bindings-setup)
+(require 'setup-key-bindings)

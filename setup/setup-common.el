@@ -86,4 +86,4 @@
 (require 'url)
 (setq url-configuration-directory (expand-file-name "url" savefiles-dir))
 
-(provide 'common-setup)
+(provide 'setup-common)

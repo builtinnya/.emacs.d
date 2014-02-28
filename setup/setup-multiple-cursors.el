@@ -5,4 +5,4 @@
 
 (require 'multiple-cursors)
 
-(provide 'multiple-cursors-setup)
+(provide 'setup-multiple-cursors)

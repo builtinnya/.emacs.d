@@ -8,4 +8,4 @@
 ;; Enable YASnippet globally
 (yas-global-mode +1)
 
-(provide 'yasnippet-setup)
+(provide 'setup-yasnippet)

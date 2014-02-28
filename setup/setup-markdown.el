@@ -9,4 +9,4 @@
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 (add-to-list 'auto-mode-alist '("\\.txt\\'" . markdown-mode))
 
-(provide 'markdown-setup)
+(provide 'setup-markdown)

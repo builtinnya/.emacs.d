@@ -3,4 +3,4 @@
 ;; Load expand-region
 (require 'expand-region)
 
-(provide 'expand-region-setup)
+(provide 'setup-expand-region)

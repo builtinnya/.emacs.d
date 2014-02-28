@@ -24,4 +24,4 @@
 ;; Enable caching unconditionally
 (setq projectile-enable-caching t)
 
-(provide 'projectile-setup)
+(provide 'setup-projectile)

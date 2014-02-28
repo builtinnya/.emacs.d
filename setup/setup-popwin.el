@@ -8,4 +8,4 @@
 ;; Enable popwin-mode
 (popwin-mode +1)
 
-(provide 'popwin-setup)
+(provide 'setup-popwin)

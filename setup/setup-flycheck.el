@@ -12,4 +12,4 @@
 ;; Use `flycheck-tip-cycle' and `flycheck-tip-cycle-reverse' to move to errors.
 (require 'flycheck-tip)
 
-(provide 'flycheck-setup)
+(provide 'setup-flycheck)

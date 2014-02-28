@@ -1,5 +1,8 @@
 ;;; OSX specific setup
 
+;; Enable sRGB
+(setq ns-use-srgb-colorspace t)
+
 ;; On OSX Emacs doesn't use the shell PATH if it's not started from
 ;; the shell. Let's fix that:
 (require 'exec-path-from-shell)
@@ -29,4 +32,4 @@
    nil 'fullscreen
    (when (not (frame-parameter nil 'fullscreen)) 'fullboth)))
 
-(provide 'osx-setup)
+(provide 'setup-osx)

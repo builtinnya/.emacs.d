@@ -9,6 +9,8 @@
 (depends-on "auto-complete")
 (depends-on "calfw")
 (depends-on "cask")
+(depends-on "cider")
+(depends-on "clojure-mode")
 (depends-on "color-theme")
 (depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "color-theme-solarized")
