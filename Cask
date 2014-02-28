@@ -84,7 +84,6 @@
 (depends-on "tabbar")
 (depends-on "w3m")
 (depends-on "web-mode")
-(depends-on "workgroups2")
 (depends-on "wrap-region")
 (depends-on "yaml-mode")
 (depends-on "yasnippet")

@@ -25,8 +25,25 @@
 ;; (load-theme 'obsidian t)
 (load-theme 'zenburn t)
 
-;; Set format of mode line
-
+;; Set mode-line format
+(setq-default mode-line-format
+              '("%e"
+                mode-line-front-space
+                "%*"
+                " "
+                "%I"
+                " "
+                mode-line-buffer-identification
+                "   "
+                "%4l :%3c"
+                "   "
+                (:eval (wg-mode-line-string))
+                " "
+                (vc-mode vc-mode)
+                " "
+                mode-line-modes
+                mode-line-misc-info
+                mode-line-end-spaces))
 
 ;; Make mode line look better
 ;; (add-vendor-to-load-path "powerline")
