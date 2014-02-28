@@ -57,6 +57,7 @@
 (depends-on "multiple-cursors")
 (depends-on "noctilux-theme")
 (depends-on "obsidian-theme")
+(depends-on "org")
 (depends-on "pallet")
 (depends-on "persp-mode")
 (depends-on "perspective")

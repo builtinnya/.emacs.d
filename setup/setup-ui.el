@@ -25,6 +25,9 @@
 ;; (load-theme 'obsidian t)
 (load-theme 'zenburn t)
 
+;; Set format of mode line
+
+
 ;; Make mode line look better
 ;; (add-vendor-to-load-path "powerline")
 ;; (require 'powerline)
