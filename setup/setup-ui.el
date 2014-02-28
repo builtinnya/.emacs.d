@@ -15,37 +15,38 @@
 (when (fboundp 'menu-bar-mode)
   (menu-bar-mode -1))
 
-;; Set the starting position and width and height of Emacs window
-(add-to-list 'default-frame-alist '(left . 0))
-(add-to-list 'default-frame-alist '(top . 0))
-(add-to-list 'default-frame-alist '(height . 45))
-(add-to-list 'default-frame-alist '(width . 175))
+;; Maximize each time a frame is created
+(add-to-list 'after-make-frame-functions 'maximize-frame t)
 
 ;; Load my favorite theme to make Emacs look very nice
-(load-theme 'soft-morning t)
+;; (load-theme 'soft-morning t)
+;; (load-theme 'soft-charcoal t)
+;; (load-theme 'soft-stone t)
+;; (load-theme 'obsidian t)
+(load-theme 'zenburn t)
 
 ;; Make mode line look better
-(add-vendor-to-load-path "powerline")
-(require 'powerline)
+;; (add-vendor-to-load-path "powerline")
+;; (require 'powerline)
 
-(set-face-attribute 'mode-line nil
-                    :background "OliveDrab3"
-                    :box nil)
+;; (set-face-attribute 'mode-line nil
+;;                     :background "OliveDrab3"
+;;                     :box nil)
 
-(set-face-attribute 'mode-line-inactive nil
-                    :box nil)
+;; (set-face-attribute 'mode-line-inactive nil
+;;                     :box nil)
 
-(set-face-attribute 'powerline-active1 nil
-                    :foreground "white"
-                    :background "grey22")
+;; (set-face-attribute 'powerline-active1 nil
+;;                     :foreground "white"
+;;                     :background "grey28")
 
-(set-face-attribute 'powerline-active2 nil
-                    :foreground "white"
-                    :background "grey40")
+;; (set-face-attribute 'powerline-active2 nil
+;;                     :foreground "white"
+;;                     :background "grey50")
 
-(set-face-attribute 'powerline-active3 nil
-                    :foreground "white"
-                    :background "grey10")
+;; (set-face-attribute 'powerline-active3 nil
+;;                     :foreground "white"
+;;                     :background "grey13")
 
 ;;;###autoload
 (defun powerline-my-theme ()
@@ -77,6 +78,7 @@
                                  (when (and (boundp 'which-func-mode)
                                             which-func-mode)
                                    (powerline-raw which-func-format nil 'l))
+                                 (powerline-raw (wg-mode-line-string))
                                  (powerline-raw " ")
                                  (funcall separator-left nil face3)
                                  (powerline-raw "%4l" face3 'l)
@@ -103,7 +105,7 @@
                              (powerline-fill face2 (powerline-width rhs))
                              (powerline-render rhs)))))))
 ;; Load my powerline theme
-(powerline-my-theme)
+;; (powerline-my-theme)
 
 ;; Unclutter the mode line
 (require 'diminish)

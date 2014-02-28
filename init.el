@@ -36,7 +36,7 @@
 (add-to-list 'load-path library-dir)
 
 ;; Load core library
-(require 'my-core)
+;; (require 'my-core)
 
 ;; Add to load-path: setup files
 (add-to-list 'load-path setup-dir)
@@ -51,11 +51,20 @@
 ;; Set up user interface
 (require 'setup-ui)
 
+;; Set up perspective, workspaces for Emacs
+;; (require 'setup-perspective)
+
+;; Set up persp-mode, workspaces for Emacs
+;; (require 'setup-persp-mode)
+
+;; Set up workgroups2, a session manager for Emacs
+(require 'setup-workgroups2)
+
 ;; Set up extra whitespace visualization/elimination
 (require 'setup-whitespace)
 
 ;; Set up highlighting
-;; (require 'setup-highlighting)
+(require 'setup-highlighting)
 
 ;; Set up parenthesis
 (require 'setup-parens)
