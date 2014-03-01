@@ -22,6 +22,8 @@
 (set-face-attribute 'wg-brace-face nil
                     :inherit 'font-lock-type-face)
 
+(setq wg-mode-line-only-name nil)
+
 (workgroups-mode +1)
 
 ;; Do not clutter mode line

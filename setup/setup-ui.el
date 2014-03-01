@@ -37,7 +37,7 @@
                 "   "
                 "%4l :%3c"
                 "   "
-                (:eval (wg-mode-line-string))
+                ;; (:eval (wg-mode-line-string))
                 " "
                 (vc-mode vc-mode)
                 " "
