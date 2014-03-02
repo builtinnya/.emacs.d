@@ -4,12 +4,40 @@
   ;; Press command-return to toggle full-screen
   (global-set-key (kbd "<s-return>") 'osx-toggle-fullscreen))
 
-;; Move to Flycheck errors
+;; Make it faster to move to an other window
+(global-set-key (kbd "M-o") 'other-window)
+
+;; Repeat the last command.
+;; You can repeatedly press z after your first `repeat' call.
+(global-set-key (kbd "C-x z") 'repeat)
+
+;; Repeat and edit complex commands
+(global-set-key (kbd "C-x M-:") 'repeat-complex-command)
+
+;; Open recent files with ido completion
+(global-set-key (kbd "C-x C-r") 'ido-recentf-open)
+
+;; Run `ibuffer'
+(global-set-key (kbd "C-x C-b") 'ibuffer)
+
+;; Run `ansi-term'
+(global-set-key (kbd "<f1>") 'ansi-term)
+
+;; Shrink/enlarge window
+(global-set-key (kbd "S-C-<left>") 'shrink-window-horizontally)
+(global-set-key (kbd "S-C-<right>") 'enlarge-window-horizontally)
+(global-set-key (kbd "S-C-<down>") 'shrink-window)
+(global-set-key (kbd "S-C-<up>") 'enlarge-window)
+
+;; Do the silver search `ag'
+(global-set-key (kbd "C-c a") 'ag)
+
+;; Do the silver search on the current project
+(global-set-key (kbd "s-f") 'ag-project)
+
+;; Move to Flycheck errorss
 (global-set-key (kbd "C-c C-n") 'flycheck-tip-cycle)
 (global-set-key (kbd "C-c C-p") 'flycheck-tip-cycle-reverse)
-
-;; Do the silver search
-(global-set-key (kbd "s-f") 'ag-project)
 
 ;; Multiple cursors: add the next matching part
 (global-set-key (kbd "s-d") 'mc/mark-next-like-this)
