@@ -4,4 +4,4 @@
 ;; Use `gitconfig-mode' for editing the following dot-files.
 (add-to-list 'auto-mode-alist '("_gitconfig\\'" . gitconfig-mode))
 
-(provide 'setup-magit)
+(provide 'setup-git)

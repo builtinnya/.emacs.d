@@ -131,5 +131,11 @@
 ;; Set up ace-jump-mode - jump to a word starting with a given char
 (require 'setup-ace-jump)
 
+;; Set up sh-mode
+(require 'setup-sh)
+
+;; Set up Git-related things
+(require 'setup-git)
+
 ;; Set up key-bindings
 (require 'setup-key-bindings)

@@ -95,4 +95,7 @@
 (require 'url)
 (setq url-configuration-directory (expand-file-name "url" savefiles-dir))
 
+;; Add newlines when the point is at the end of the buffer and hit `C-n'
+(setq next-line-add-newlines t)
+
 (provide 'setup-common)
