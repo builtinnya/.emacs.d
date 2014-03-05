@@ -137,5 +137,8 @@
 ;; Set up Git-related things
 (require 'setup-git)
 
+;; Set up Eshell, The Emacs Shell
+(require 'setup-eshell)
+
 ;; Set up key-bindings
 (require 'setup-key-bindings)
