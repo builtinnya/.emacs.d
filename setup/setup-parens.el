@@ -11,6 +11,9 @@
 ;; Highlight matching pairs
 (show-smartparens-global-mode t)
 
+;; Turn on smartparens globally
+(smartparens-global-mode t)
+
 ;; Markdown
 (sp-with-modes '(markdown-mode gfm-mode rst-mode)
   (sp-local-pair "*" "*" :bind "C-*")
@@ -18,8 +21,17 @@
   (sp-local-tag "s" "```scheme" "```")
   (sp-local-tag "<"  "<_>" "</_>" :transform 'sp-match-sgml-tags))
 
-;; Turn on smartparens globally
-(smartparens-global-mode t)
+;;; tex-mode latex-mode
+(sp-with-modes '(tex-mode plain-tex-mode latex-mode)
+  (sp-local-tag "i" "\"<" "\">"))
+
+;;; html-mode
+(sp-with-modes '(html-mode sgml-mode)
+  (sp-local-pair "<" ">"))
+
+;;; lisp modes
+(sp-with-modes sp--lisp-modes
+  (sp-local-pair "(" nil :bind "C-("))
 
 ;; Key bindings.
 ;; Run `sp-cheat-sheet' to show sp-functions and to practice.

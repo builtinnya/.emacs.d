@@ -5,7 +5,7 @@
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 
 (setq js2-basic-offset 2
-      js2-bounce-indent-p t)
+      js2-bounce-indent-p nil)
 
 ;; Add imenu support
 (add-hook 'js2-mode-hook 'js2-imenu-extras-mode)
