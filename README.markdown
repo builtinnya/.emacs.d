@@ -48,7 +48,7 @@ $ brew install emacs --use-git-head --cocoa --srgb
 2. Clone this repository to ``~/.emacs.d``:
 
 ```bash
-$ git clone git@bitbucket.org:builtinnya/emacs.d.git ~/.emacs.d
+$ git clone git@github.com:builtinnya/.emacs.d.git ~/.emacs.d
 ```
 
 ## Structure
