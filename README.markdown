@@ -35,7 +35,7 @@ If you don't have Emacs installed yet, you need to install one.
 
 On Mac OS X, my preferred way is to use [Homebrew][]:
 
-``` bash
+```bash
 $ brew install emacs --use-git-head --cocoa --srgb
 ```
 
@@ -47,9 +47,9 @@ $ brew install emacs --use-git-head --cocoa --srgb
 1. Install [Cask](http://cask.github.io/), a package dependency manager for Emacs.
 2. Clone this repository to ``~/.emacs.d``:
 
-    ``` bash
-    $ git clone git@bitbucket.org:builtinnya/emacs.d.git ~/.emacs.d
-    ```
+```bash
+$ git clone git@bitbucket.org:builtinnya/emacs.d.git ~/.emacs.d
+```
 
 ## Structure
 
@@ -73,21 +73,18 @@ or to use your own fork.
 I prefer to use [Git Subtrees][]. Here is how to do it.
 
 - Adding a library to `vendor/`
-
-    ``` bash
+    ```bash
     $ git remote add some-library git-url-of-some-library
     $ git subtree add --prefix=vendor/some-library --squash some-library master
     ```
 
 - Pulling changes from upstream
-
-    ``` bash
+    ```bash
     $ git subtree pull --prefix=vendor/some-library --squash some-library master
     ```
 
 - Contributing back to upstream
-
-    ``` bash
+    ```bash
     $ git subtree push --prefix=vendor/some-library some-library master
     ```
 
