@@ -42,3 +42,6 @@
     ad-do-it))
 
 (provide 'setup-web)
+
+;; Setup for SCSS
+(add-to-list 'auto-mode-alist '("\\.scss$" . web-mode))
