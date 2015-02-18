@@ -45,3 +45,6 @@
 
 ;; Setup for SCSS
 (add-to-list 'auto-mode-alist '("\\.scss$" . web-mode))
+
+;; Setup for JSON
+(add-to-list 'auto-mode-alist '("\\.json$" . web-mode))
