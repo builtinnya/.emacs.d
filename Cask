@@ -17,6 +17,7 @@
 (depends-on "dash")
 (depends-on "dash-at-point")
 (depends-on "diminish")
+(depends-on "dockerfile-mode")
 (depends-on "drag-stuff")
 (depends-on "ecb")
 (depends-on "emmet-mode")
