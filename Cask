@@ -64,6 +64,7 @@
 (depends-on "pallet")
 (depends-on "persp-mode")
 (depends-on "perspective")
+(depends-on "php-mode")
 (depends-on "pkg-info")
 (depends-on "popup")
 (depends-on "popwin")
