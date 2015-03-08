@@ -48,3 +48,6 @@
 
 ;; Setup for JSON
 (add-to-list 'auto-mode-alist '("\\.json$" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jshintrc$" . web-mode))
+(setq web-mode-content-types-alist
+  '(("json" . "\\.jshintrc$")))
