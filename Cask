@@ -39,6 +39,7 @@
 (depends-on "gitignore-mode")
 (depends-on "gnuplot-mode")
 (depends-on "google-c-style")
+(depends-on "haskell-mode")
 (depends-on "helm")
 (depends-on "helm-github-stars")
 (depends-on "helm-gtags")
