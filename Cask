@@ -78,6 +78,7 @@
 (depends-on "ruby-compilation")
 (depends-on "ruby-tools")
 (depends-on "s")
+(depends-on "shakespeare-mode")
 (depends-on "simple-httpd")
 (depends-on "skewer-mode")
 (depends-on "slamhound")
