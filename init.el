@@ -122,6 +122,9 @@
 ;; Set up JavaScript development environment
 (require 'setup-js)
 
+;; Set up CoffeeScript development environment
+(require 'setup-coffee)
+
 ;; Set up web development environment
 (require 'setup-web)
 
