@@ -60,6 +60,7 @@
 (depends-on "multi-term")
 (depends-on "multiple-cursors")
 (depends-on "noctilux-theme")
+(depends-on "nodejs-repl")
 (depends-on "obsidian-theme")
 (depends-on "org")
 (depends-on "pallet")
