@@ -41,8 +41,6 @@
         ad-do-it)
     ad-do-it))
 
-(provide 'setup-web)
-
 ;; Setup for SCSS
 (add-to-list 'auto-mode-alist '("\\.scss$" . web-mode))
 
@@ -53,3 +51,8 @@
 (setq web-mode-content-types-alist
       '(("json" . "\\.jshintrc$")
         ("json" . "\\.jscsrc$")))
+
+;; Setup for Embedded Ruby
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+
+(provide 'setup-web)
