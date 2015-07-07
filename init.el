@@ -119,6 +119,9 @@
 ;; Set up Python development environment
 (require 'setup-python)
 
+;; Set up Ruby development environment
+(require 'setup-ruby)
+
 ;; Set up JavaScript development environment
 (require 'setup-js)
 
