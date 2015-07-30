@@ -55,4 +55,7 @@
 ;; Setup for Embedded Ruby
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 
+;; Setup for Embedded Javascript
+(add-to-list 'auto-mode-alist '("\\.ejs\\'" . web-mode))
+
 (provide 'setup-web)
