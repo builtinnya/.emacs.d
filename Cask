@@ -51,6 +51,7 @@
 (depends-on "jedi")
 (depends-on "js2-mode")
 (depends-on "magit")
+(depends-on "magit-gitflow")
 (depends-on "markdown-mode")
 (depends-on "maxframe")
 (depends-on "mew")
