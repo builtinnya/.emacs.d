@@ -81,6 +81,7 @@
 (depends-on "simple-httpd")
 (depends-on "skewer-mode")
 (depends-on "slamhound")
+(depends-on "slim-mode")
 (depends-on "smartparens")
 (depends-on "smex")
 (depends-on "soft-charcoal-theme")
