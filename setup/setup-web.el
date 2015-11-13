@@ -45,8 +45,10 @@
 (add-to-list 'auto-mode-alist '("\\.json$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jshintrc$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jscsrc$" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.eslintrc$" . web-mode))
 (add-to-list 'web-mode-content-types-alist '("json" . "\\.jshintrc$"))
 (add-to-list 'web-mode-content-types-alist '("json" . "\\.jscsrc$"))
+(add-to-list 'web-mode-content-types-alist '("json" . "\\.eslintrc$"))
 
 ;; Setup for Embedded Ruby
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
