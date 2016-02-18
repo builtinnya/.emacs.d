@@ -21,8 +21,7 @@
 ;;                     :foreground (face-background 'default)
 ;;                     :background (face-background 'default))
 
-;; Cleanup before save
-(add-hook 'before-save-hook 'whitespace-cleanup)
+(setq whitespace-action '(auto-cleanup))
 
 ;; Enable whitespace-mode globally
 (global-whitespace-mode +1)
