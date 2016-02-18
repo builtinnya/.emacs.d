@@ -6,6 +6,7 @@
         beginning-of-visual-line
         c-electric-delete-forward
         end-of-visual-line
+        kill-region
         markdown-shifttab
         sp--self-insert-command
         sp-forward-slurp-sexp
