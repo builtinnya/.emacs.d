@@ -1,6 +1,6 @@
-(source melpa)
 (source gnu)
 (source marmalade)
+(source melpa)
 
 (depends-on "ac-js2")
 (depends-on "ace-jump-mode")
@@ -24,6 +24,7 @@
 (depends-on "emmet-mode")
 (depends-on "enclose")
 (depends-on "epl")
+(depends-on "erlang")
 (depends-on "es-lib")
 (depends-on "exec-path-from-shell")
 (depends-on "expand-region")
