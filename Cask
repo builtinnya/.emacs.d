@@ -90,6 +90,7 @@
 (depends-on "soft-stone-theme")
 (depends-on "sr-speedbar")
 (depends-on "tabbar")
+(depends-on "tide")
 (depends-on "web-mode")
 (depends-on "wrap-region")
 (depends-on "yaml-mode")
