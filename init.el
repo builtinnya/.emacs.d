@@ -134,6 +134,9 @@
 ;; Set up CoffeeScript development environment
 (require 'setup-coffee)
 
+;; Set up TypeScript development environment
+(require 'setup-typescript)
+
 ;; Set up web development environment
 (require 'setup-web)
 
