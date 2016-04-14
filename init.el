@@ -125,6 +125,9 @@
 ;; Set up Python development environment
 (require 'setup-python)
 
+;; Set up PHP development environment
+(require 'setup-php)
+
 ;; Set up Ruby development environment
 (require 'setup-ruby)
 
