@@ -10,6 +10,7 @@
         markdown-shifttab
         sp--self-insert-command
         sp-forward-slurp-sexp
+        typescript-insert-and-indent
         wdired-finish-edit
         yas-expand
         ))
@@ -20,4 +21,5 @@
         haskell-indentation-delete-backward-char
         markdown-exdent-or-delete
         read-only-mode
+        yaml-electric-backspace
         ))
