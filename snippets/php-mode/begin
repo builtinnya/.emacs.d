@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: begin
+# key: beg
+# --
+<?php
+
+$0
