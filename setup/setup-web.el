@@ -72,7 +72,7 @@
 (add-to-list 'auto-mode-alist '("\\.ejs\\'" . web-mode))
 
 ;; Setup for Blade template
-(add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.blade\\.php\\'" . web-mode))
 
 (provide 'setup-web)
