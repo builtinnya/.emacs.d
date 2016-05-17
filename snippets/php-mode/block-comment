@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: block-comment
+# key: com
+# --
+/**
+ * $1
+ */
+$0
