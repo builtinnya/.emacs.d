@@ -75,4 +75,7 @@
 ;; (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.blade\\.php\\'" . web-mode))
 
+;; Setup for (Phalcon) Volt template
+(add-to-list 'auto-mode-alist '("\\.volt\\'" . web-mode))
+
 (provide 'setup-web)
