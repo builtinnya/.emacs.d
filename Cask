@@ -21,6 +21,7 @@
 (depends-on "dockerfile-mode")
 (depends-on "drag-stuff")
 (depends-on "ecb")
+(depends-on "editorconfig")
 (depends-on "emmet-mode")
 (depends-on "enclose")
 (depends-on "epl")

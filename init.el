@@ -167,5 +167,8 @@
 ;; Set up Eshell, The Emacs Shell
 (require 'setup-eshell)
 
+;; Set up EditorConfig
+(require 'setup-editorconfig)
+
 ;; Set up key-bindings
 (require 'setup-key-bindings)
