@@ -21,5 +21,6 @@
         haskell-indentation-delete-backward-char
         markdown-exdent-or-delete
         read-only-mode
+        slim-electric-backspace
         yaml-electric-backspace
         ))
