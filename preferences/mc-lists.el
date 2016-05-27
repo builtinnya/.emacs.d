@@ -12,6 +12,7 @@
         sp-forward-slurp-sexp
         typescript-insert-and-indent
         wdired-finish-edit
+        yaml-electric-dash-and-dot
         yas-expand
         ))
 
