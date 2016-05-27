@@ -42,6 +42,7 @@
 (depends-on "google-c-style")
 (depends-on "haskell-mode")
 (depends-on "helm")
+(depends-on "helm-ag")
 (depends-on "helm-github-stars")
 (depends-on "helm-gtags")
 (depends-on "helm-projectile")

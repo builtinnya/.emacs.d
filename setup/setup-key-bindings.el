@@ -33,7 +33,7 @@
 (global-set-key (kbd "C-c a") 'ag)
 
 ;; Do the silver search on the current project
-(global-set-key (kbd "s-f") 'ag-project)
+;; (global-set-key (kbd "s-f") 'ag-project)
 
 ;; Move to Flycheck errorss
 (global-set-key (kbd "C-c C-n") 'flycheck-tip-cycle)
@@ -50,6 +50,9 @@
 
 ;; Press Command-p for find in project
 (global-set-key (kbd "s-p") 'helm-projectile)
+
+;; Interactive projectile silver search
+(global-set-key (kbd "s-f") 'helm-projectile-ag)
 
 ;; List symbols by semantic or imenu
 (global-set-key (kbd "s-i") 'helm-semantic-or-imenu)
