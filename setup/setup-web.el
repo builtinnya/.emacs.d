@@ -42,6 +42,9 @@
 (add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . web-mode))
 (add-to-list 'web-mode-content-types-alist '("jsx" . "\\.js[x]?\\'"))
 
+;; Setup for Riot.js
+(add-to-list 'auto-mode-alist '("\\.tag$" . web-mode))
+
 ;; Setup for TypeScript
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
 (add-hook 'web-mode-hook
