@@ -92,6 +92,7 @@
 (depends-on "soft-stone-theme")
 (depends-on "sr-speedbar")
 (depends-on "tabbar")
+(depends-on "terraform-mode")
 (depends-on "tide")
 (depends-on "web-mode")
 (depends-on "wrap-region")
