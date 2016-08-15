@@ -5,6 +5,7 @@
       '(
         beginning-of-visual-line
         c-electric-delete-forward
+        dired-toggle-read-only
         end-of-visual-line
         kill-region
         markdown-shifttab
