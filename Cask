@@ -91,6 +91,7 @@
 (depends-on "soft-morning-theme")
 (depends-on "soft-stone-theme")
 (depends-on "sr-speedbar")
+(depends-on "swift-mode")
 (depends-on "tabbar")
 (depends-on "terraform-mode")
 (depends-on "tide")
