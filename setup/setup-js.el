@@ -14,6 +14,9 @@
 ;; Use ac-js2 for auto-completion
 (add-hook 'js2-mode-hook 'ac-js2-mode)
 
+;; Set up jade-mode
+(require 'jade-mode)
+
 ;; Enable REPL for Node.js
 (require 'nodejs-repl)
 
