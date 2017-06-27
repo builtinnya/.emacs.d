@@ -16,7 +16,10 @@
               (setq web-mode-markup-indent-offset 2)
               (setq web-mode-css-indent-offset 2)
               (setq web-mode-code-indent-offset 2)
-              (setq web-mode-attr-indent-offset 2))))
+              (setq web-mode-attr-indent-offset 2)
+              (setq web-mode-script-padding 2)
+              (setq web-mode-style-padding 2)
+              (setq web-mode-block-padding 2))))
 
 ;; Set up Emmet (ex-Zen-Coding)
 (require 'emmet-mode)
