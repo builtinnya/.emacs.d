@@ -96,6 +96,7 @@
 (depends-on "tabbar")
 (depends-on "terraform-mode")
 (depends-on "tide")
+(depends-on "vue-mode")
 (depends-on "web-mode")
 (depends-on "wrap-region")
 (depends-on "yaml-mode")
