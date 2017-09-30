@@ -85,4 +85,7 @@
 ;; Setup for (Phalcon) Volt template
 (add-to-list 'auto-mode-alist '("\\.volt\\'" . web-mode))
 
+;; Setup for Vue.js
+(add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
+
 (provide 'setup-web)
